@@ -21,8 +21,11 @@ def search_knowledge(
     query: str,
     limit: int = 5,
 ):
+    # Crear embedding de la pregunta
     query_embedding = create_embedding(query)
 
+    # Buscar los chunks más cercanos utilizando
+    # distancia coseno.
     results = (
         db.query(
             KnowledgeChunk,
@@ -53,9 +56,6 @@ def search_knowledge(
             )
 
     return relevant_chunks
-
-
-
 
 
 async def ask_knowledge_base(
