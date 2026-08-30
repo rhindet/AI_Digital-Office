@@ -54,5 +54,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Enable pgvector
+        run: |
+          PGPASSWORD=ci_password psql \
+            -h localhost \
+            -p 5433 \
+            -U ai_admin \
+            -d ai_digital_office \
+            -c "CREATE EXTENSION IF NOT EXISTS vector;"
+
       - name: Run tests
         run: pytest -v --cov=app --cov-report=term-missing
