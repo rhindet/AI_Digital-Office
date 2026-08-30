@@ -5,9 +5,12 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = (
-    "postgresql://ai_admin:ai_password"
-    "@localhost:5433/ai_digital_office"
+import os
+
+
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "postgresql://ai_admin:ai_password@localhost:5433/ai_digital_office"
 )
 
 engine = create_engine(
