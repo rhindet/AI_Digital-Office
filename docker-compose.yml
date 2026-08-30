@@ -1,0 +1,21 @@
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: ai-digital-office-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: ai_digital_office
+      POSTGRES_USER: ai_admin
+      POSTGRES_PASSWORD: ai_password
+
+    ports:
+      - "5433:5432"
+    
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+
+volumes:
+  postgres_data:

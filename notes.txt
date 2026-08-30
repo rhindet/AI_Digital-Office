@@ -1,0 +1,114 @@
+
+
+Aquí hay algo importante:
+
+No estamos utilizando un PostgreSQL normal.
+
+Estamos utilizando: pgvector/pgvector
+
+porque desde el principio queremos que nuestra base 
+de datos pueda manejar embeddings para el futuro RAG.
+
+Ahí entra Alembic
+Alembic detecta el cambio que hiciste en tus modelos y genera una migración:
+Antes:
+
+tickets
+├── id
+├── title
+├── description
+├── status
+└── priority
+
+             ↓ Alembic
+
+Después:
+
+tickets
+├── id
+├── title
+├── description
+├── status
+├── priority
+└── created_by → users.id
+
+
+La migración sería algo conceptualmente parecido a:
+ALTER TABLE tickets
+ADD COLUMN created_by INTEGER;
+
+ALTER TABLE tickets
+ADD FOREIGN KEY (created_by)
+REFERENCES users(id);
+
+Pero no queremos estar escribiendo esos ALTER TABLE manualmente.
+
+2. ¿Qué estamos haciendo?
+
+La migración ahora será:
+
+tickets existentes
+       ↓
+created_by NULL temporalmente
+       ↓
+buscar el primer usuario de users
+       ↓
+asignarlo a los tickets existentes
+       ↓
+created_by pasa a NOT NULL
+       ↓
+crear Foreign Key
+
+Por ejemplo, si users tiene:
+
+id | name
+---+-------
+1  | Luis
+2  | Ana
+
+los tickets viejos recibirán:
+created_by = 1
+
+Esto es solamente para los tickets que ya existían.
+
+Los nuevos tickets deberán recibir el usuario real que los está creando.
+
+Alembic no crea una tabla nueva en este caso. Alembic solamente está aplicando a PostgreSQL el cambio que hiciste en tus modelos SQLAlchemy.
+
+Y esto es justamente lo que queremos: que SQLAlchemy y PostgreSQL tengan la misma estructura.
+
+
+Auth
+ ├── Login
+ ├── JWT
+ └── Roles
+
+Users
+ ├── CRUD
+ └── Roles
+
+Tickets
+ ├── Crear
+ ├── Consultar
+ ├── Actualizar
+ ├── Eliminar
+ ├── Asignar
+ └── Estados
+
+Comments
+ └── Comentarios
+
+History
+ └── Auditoría
+
+Notifications
+ ├── Crear
+ ├── Consultar
+ └── Marcar como leída
+
+## error de cors 
+INFO:     127.0.0.1:61176 - "OPTIONS /auth/login HTTP/1.1" 405 Method Not Allowed
+
+
+## ver arbol de archivos 
+find src -maxdepth 4 -type f | sort

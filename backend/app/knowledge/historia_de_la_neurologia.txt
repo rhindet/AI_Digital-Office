@@ -1,0 +1,46 @@
+HISTORIA DE LA NEUROLOGÍA: EVOLUCIÓN DEL ESTUDIO DEL SISTEMA NERVIOSO HUMANO
+
+================================================================================
+1. ORÍGENES ANTIGUOS: DEL CORAZÓN AL CEREBRO
+================================================================================
+En la antigüedad, las civilizaciones prehistóricas practicaban la trepanación (perforación del cráneo) con fines curativos o rituales, demostrando un reconocimiento primigenio de la cabeza como un centro vital de salud y padecimiento.
+
+En el antiguo Egipto, el Papiro de Edwin Smith (circa 1700 a.C.) registró las primeras descripciones anatómicas del cerebro, la duramadre y las suturas craneales, detallando las consecuencias de traumatismos craneoencefálicos. Sin embargo, la perspectiva imperante era el cardiocentrismo, que situaba el alma y el intelecto en el corazón.
+
+El giro conceptual decisivo ocurrió en la Grecia clásica. Alcmeón de Crotona (siglo VI a.C.) propuso por primera vez que el cerebro era el órgano del intelecto. Posteriormente, Hipócrates consolidó esta visión al afirmar que los sentimientos, percepciones y juicios proceden exclusivamente del cerebro, describiendo condiciones como la epilepsia no como una "enfermedad sagrada", sino como un trastorno cerebral patológico.
+
+================================================================================
+2. EL PERIODO CLÁSICO Y LA EDAD MEDIA
+================================================================================
+En Alejandría, Herófilo y Erasístrato (siglo III a.C.) realizaron disecaciones humanas detalladas, diferenciando el cerebro del cerebelo y clasificando los nervios en motores y sensitivos. Más tarde, Galeno de Pérgamo (siglo II d.C.) sistematizó el conocimiento médico adaptando la teoría de los espíritus animales, los cuales, según su modelo, fluían a través de los ventrículos cerebrales y los nervios para producir sensación y movimiento.
+
+«Es preciso saber que desde ningún otro lugar sino desde el cerebro provienen nuestros placeres, alegrías, risas y bromas, así como nuestras penas, dolores, tristezas y llantos.» 
+— Hipócrates, Sobre la enfermedad sagrada.
+
+================================================================================
+3. EL RENACIMIENTO Y LA REVOLUCIÓN ANATÓMICA
+================================================================================
+Durante la Edad Media, el conocimiento anatómico permaneció estancado bajo la ortodoxia galénica. Fue en el Renacimiento cuando la observación directa revolucionó la neurología:
+
+- Andreas Vesalio (1514–1564): En su monumental obra 'De humani corporis fabrica' (1543), corrigió numerosos errores de Galeno basados en disecaciones animales, ofreciendo representaciones anatómicas exactas del cerebro y el sistema nervioso.
+- Thomas Willis (1621–1675): Considerado el "padre de la neurología", acuñó el término 'neurologia' en 1664 con su obra 'Cerebri Anatome'. Describió minuciosamente la vascularización cerebral, destacando la estructura arterial conocida hoy como el Círculo de Willis.
+
+================================================================================
+4. SIGLOS XVIII Y XIX: ELECTROFISIOLOGÍA Y LOCALIZACIÓN FUNCIONAL
+================================================================================
+El siglo XVIII marcó la transición hacia una comprensión bioeléctrica del sistema nervioso. Luigi Galvani demonstrated en 1791 que la estimulación eléctrica en músculos de rana producía contracción, introduciendo el concepto de la "electricidad animal".
+
+El siglo XIX presenció el gran debate sobre la localización cerebral:
+- Paul Broca (1861): Demostró que las lesiones en la tercera circunvolución frontal izquierda (Área de Broca) provocaban la pérdida del lenguaje articulado (afasia motora).
+- Carl Wernicke (1874): Identificó el área del lóbulo temporal involucrada en la comprensión del lenguaje.
+- Jean-Martin Charcot (1825–1893): Desde el Hospital de la Salpêtrière en París, estableció la metodología clínica moderna, caracterizando la esclerosis múltiple, la esclerosis lateral amiotrófica (ELA) y la enfermedad de Parkinson.
+
+================================================================================
+5. LA DOCTRINA DE LA NEURONA Y EL SIGLO XX
+================================================================================
+A finales del siglo XIX, la controversia sobre la estructura íntima del tejido nervioso opuso a dos gigantes de la ciencia:
+Camillo Golgi desarrolló la técnica de tinción con nitrato de plata, sosteniendo que el sistema nervioso era una red continua (teoría reticular). Sin embargo, Santiago Ramón y Cajal aplicó esta técnica para demostrar magistralmente que el sistema nervioso está compuesto por células individuales e independientes: las neuronas. Ambos compartieron el Premio Nobel de Fisiología o Medicina en 1906.
+
+- Hans Berger (1924): Registró el primer electroencefalograma (EEG) humano, abriendo la era de la neurofisiología clínica.
+- Neurotransmisión (décadas de 1930-1950): Otto Loewi y Henry Dale demostraron la transmisión química en las sinapsis mediante la acetilcolina.
+- Neuroimagen (finales del siglo XX): El desarrollo de la Tomografía Computarizada (TC) por Hounsfield y Cormack, junto con la Resonancia Magnética (RM), transformó de manera radical el diagnóstico neurológico in vivo.

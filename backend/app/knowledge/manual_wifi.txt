@@ -1,0 +1,4 @@
+Para conectarse a la red WiFi institucional, el empleado debe activar el WiFi,
+seleccionar la red institucional e introducir sus credenciales.
+Si no puede conectarse, debe reiniciar el adaptador de red y comprobar si otros
+dispositivos pueden conectarse correctamente.
