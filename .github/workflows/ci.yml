@@ -37,4 +37,4 @@ jobs:
           pip install pytest pytest-asyncio httpx
 
       - name: Run tests
-        run: pytest -v
+        run: pytest -v --cov=app --cov-report=term-missing
